@@ -27,7 +27,7 @@ Validar:
 ## 📂 Estrutura do Projeto
 
 cypress/
-
+|
 ├─ e2e/
 │ └─ login.cy.js
 ├─ support/
