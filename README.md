@@ -37,3 +37,4 @@ cypress/
 │ └─ e2e.js
 cypress.config.js
 cypress.env.json
+```
