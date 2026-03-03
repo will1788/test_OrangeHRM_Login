@@ -25,7 +25,8 @@ Validar:
 ---
 
 ## 📂 Estrutura do Projeto
-{content: }
+
+```text
 cypress/
 ├─ e2e/
 │ └─ login.cy.js
@@ -33,4 +34,3 @@ cypress/
 │ └─ commands.js
 cypress.env.json
 cypress.config.js
-{content: }
