@@ -25,12 +25,12 @@ Validar:
 ---
 
 ## 📂 Estrutura do Projeto
-
+{content: }
 cypress/
-|
 ├─ e2e/
 │ └─ login.cy.js
 ├─ support/
 │ └─ commands.js
 cypress.env.json
 cypress.config.js
+{content: }
