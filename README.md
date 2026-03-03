@@ -29,8 +29,11 @@ Validar:
 ```text
 cypress/
 ├─ e2e/
-│ └─ login.cy.js
+│ └─ testloginorange.cy.js
+├─ fixtures/
+│ └─ exemples.json
 ├─ support/
 │ └─ commands.js
-cypress.env.json
+│ └─ e2e.js
 cypress.config.js
+cypress.env.json
