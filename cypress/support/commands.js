@@ -12,10 +12,15 @@
 // -- This is a parent command --
 // Cypress.Commands.add('login', (email, password) => { ... })
 
+// Comando customizado para centralizar a ação de login
+// Evita duplicação e melhora manutenção futura
+
 Cypress.Commands.add('login', (username, password) => {
-  cy.get('[name="username"]').type(username)
-  cy.get('[name="password"]').type(password)
-  cy.get("[type='submit']").click()
+  cy.get('[name="username"]').should('be.visible').type(username)
+
+  cy.get('[name="password"]').should('be.visible').type(password)
+
+  cy.get("[type='submit']").should('be.enabled').click()
 })
 
 //
