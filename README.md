@@ -25,3 +25,11 @@ Validar:
 ---
 
 ## 📂 Estrutura do Projeto
+
+cypress/
+├─ e2e/
+│ └─ login.cy.js
+├─ support/
+│ └─ commands.js
+cypress.env.json
+cypress.config.js
